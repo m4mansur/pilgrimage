@@ -8,28 +8,34 @@ body,
 html {
   width: 100%;
   height: 100%;
-  background-image: url(/images/background-1.png);
+  background-image: url(/pilgrimage/images/background-1.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
 }
-
-.container {
-  margin-top: 50px;
+.ctr {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   flex-wrap: wrap;
+  width: 100%;
+}
+.card img {
+  height: 300px;
+  object-fit: cover;
 }
 
 .card {
   width: 350px;
   margin: 10px;
   background-color: goldenrod;
-  border: 3px  solid #CC0;
-
+  border: 3px solid #cc0;
 }
 .card:hover {
   background-color: goldenrod;
-  transform: scale(1.1);
-  transition: all 2s ease;
+  transform: scale(1.06);
+  transition: all 0.6s ease;
   cursor: pointer;
 }
 
@@ -40,21 +46,7 @@ html {
   background-position: center;
 }
 
-
-
-.card-1 {
-  background-image: url(/card-images/card-1.png);
-  
-}
-.card-2 {
-  background-image: url(/card-images/card-2.png);
-
-}
-.card-3 {
-  background-image: url(/card-images/card-3.png);
-}
-
-.card h2{
+.card h2 {
   padding: 10px;
   color: white;
 }
@@ -67,7 +59,7 @@ html {
 .card a {
   background-color: rgb(30, 30, 30);
   color: rgb(232, 223, 239);
-  padding : 15px 20px;
+  padding: 15px 20px;
   display: block;
   text-align: center;
   text-decoration: none;
@@ -76,9 +68,17 @@ html {
 .card ul li {
   color: white;
   list-style: none;
-  
 }
 
 button a:hover {
-  background-color: #CC0;
+  background-color: #cc0;
+}
+footer p {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 !important;
+  padding: 20px 0;
 }
