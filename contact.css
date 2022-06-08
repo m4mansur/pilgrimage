@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+
+.contact-section{
+  min-height: 60vh;
+  width: 100%;
+  background: linear-gradient(rgba(218, 192, 61, 0.7), #9f773a);
+  display: flex;
+  align-items: center;
+  justify-items: right;
+  flex-wrap: wrap;
+}
+
+.centered {
+  max-width: 600px;
+  margin: auto;
+}
+
+.centered h1 {
+  color: rgb(107, 118, 115);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+form input {
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 40px;
+  outline: 0;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.submit:hover {
+  transform: scale(1.1);
+  transition: .4s;
+  background-color: #3a509f;
+}
+
+a{
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  border-radius: 2px solid black;
+  width: 30px;
+  height: 30px;
+  padding-left: 5px;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+/* INFO section  */
+.info {
+  height: 40vh;
+  text-align: center;
+  background-color: rgb(63, 53, 53);
+  color: white;
+  flex-wrap: wrap;
+}
+.info h2 {
+  font-size: x-large;
+  padding-top: 20px;
+
+}
+.address {
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.2rem;
+  margin-top: 10px;
+}
+
+.email {
+  font-size: xx-large;
+  margin-bottom: 20px;
+  color: white;
+  background-color: transparent;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.email:hover {
+  background-color: chocolate;
+}
+.phone {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 150px;
+  padding: 10px;
+  margin: auto;
+  background-color: transparent;
+  color: white;
+  display: block;
+}
+
+.phone:hover {
+  background-color: chocolate;
+
+}
